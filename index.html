@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="app">
+        <div>
+          <p id="db">Művek darabszáma: 0 db</p>
+          <p id="pez">Művek összesített ára: 0 Ft</p>
+        </div>
+        
+          <label for="nev">Szobor neve: </label>
+          <input id="nev" type="text">
+          <label for="ev">Készítés éve: </label>
+          <input id="ev" type="number">
+          <label for="ar">Kikiáltási ára (Ft): </label>
+          <input id="ar" type="number">
+          <label for="magassag">Szobor magassága (cm): </label>
+          <input id="magassag" type="number">
+          <input id="gomb" type="submit" value="Adatok felvétele">
+
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
